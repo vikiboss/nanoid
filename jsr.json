@@ -1,0 +1,13 @@
+{
+  "$schema": "https://jsr.io/schema/config-file.v1.json",
+  "name": "@viki/nanoid",
+  "version": "3.0.0",
+  "exports": {
+    ".": "./src/index.ts.ts",
+    "./async": "./src/async.ts",
+    "./non-secure": "./src/non-secure.ts"
+  },
+  "publish": {
+    "include": ["readme.md", "license", "src/**/*.ts"]
+  }
+}
