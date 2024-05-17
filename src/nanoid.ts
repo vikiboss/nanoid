@@ -1,6 +1,9 @@
 import { random } from './random.ts'
 import { urlAlphabet } from './url-alphabet.ts'
 
+/**
+ * generate a random id
+ */
 export function nanoid(size: number = 21): string {
   let id: string = ''
   const bytes: Uint8Array = random(size)

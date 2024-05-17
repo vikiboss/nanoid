@@ -1,5 +1,8 @@
 import { urlAlphabet } from './url-alphabet.ts'
 
+/**
+ * generate a random id from a custom alphabet, but non-secure
+ */
 export function customAlphabet(
   alphabet: readonly string[],
   defaultSize: number = 21
@@ -12,6 +15,9 @@ export function customAlphabet(
   }
 }
 
+/**
+ * generate a random id, but non-secure
+ */
 export function nanoid(size: number = 21): string {
   let id = ''
   let i = size
