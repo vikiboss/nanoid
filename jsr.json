@@ -3,7 +3,7 @@
   "name": "@viki/nanoid",
   "version": "3.0.0",
   "exports": {
-    ".": "./src/index.ts.ts",
+    ".": "./src/index.ts",
     "./async": "./src/async.ts",
     "./non-secure": "./src/non-secure.ts"
   },
